@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>Bingo - VINTERSEA</title>
+
+    <script src="js/bingo.js" defer></script>
+    <link href="css/bingo.css" rel="stylesheet">
+</head>
+<body>
+    <button class="btn-toggle-dark">Toggle Dark-Mode</button>
+    
+    <table id="bingo_card" class="bingo_card">
+        <thead>
+            <tr>
+                <th colspan="5">BINGO - VINTERSEA</th>
+            </tr>
+        </thead>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+    <p>Instructions: Click on the cell to mark it.</p>
+
+    <button onclick="shuffleArray(bingo_spots);clearCard(document);fillCard(bingo_spots, document);">Shuffle the Card</button>
+    <button onclick="clearCard(document);">Clear Card</button>
+
+    <p>Bingo card created based on this reaction video: <a href="https://www.youtube.com/watch?v=r5KO__Mlpt8">VINTERSEA - At the Gloaming Void | HOT KARL BINGO and REACTION</a> (NSFW).  This is intended to be followed along with the video.</p>
+</body>
+</html>

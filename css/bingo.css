@@ -1,0 +1,83 @@
+body {
+    /* used Geometric Humanist from https://modernfontstacks.com/ */
+    font-family: Avenir, 'Avenir Next LT Pro', Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-size: large;
+}
+
+body {
+    color: #222;
+    background: #fff;
+    font-weight: normal;
+ /*   font: 100% system-ui; */
+}
+
+body.dark-theme {
+    color: #E7E8EB;
+    background: #292A2F;
+    font-weight: 600;
+}
+  
+a {
+    color: #0033cc;
+}
+
+a.dark-theme {
+    color: #809fff;
+}
+
+
+td, th {
+    border: 2px solid #333;
+}
+td.dark-theme, th.dark-theme {
+    border: 2px solid #bbb;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+      color: #E7E8EB;
+      background: #292A2F;
+      font-weight: 600;
+    }
+
+    body.light-theme {
+        color: #222;
+        background: #fff;    
+        font-weight: normal;
+    }
+
+    a.light-theme {
+        color: #0033cc;
+    }
+    td.light-theme, th.light-theme {
+        border: 2px solid #333;
+    }
+    a {
+      color: #809fff;
+    }
+    td, th {
+        border: 2px solid #bbb;
+    }
+}
+
+thead {
+    /* used Neo-Grotesque from https://modernfontstacks.com/ */
+    font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 800;
+}
+
+td, th {
+    width: 100px;
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td.marked {
+    background-color: #666;
+}
