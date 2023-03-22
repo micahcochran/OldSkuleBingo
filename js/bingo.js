@@ -71,7 +71,8 @@ function clearCard(doc) {
     }
 }
 
-
+// ############################  MAIN FUNCTION  #############################
+// Run these functions.
 
 // dark mode feature
 // from https://css-tricks.com/a-complete-guide-to-dark-mode-on-the-web/
